@@ -2,7 +2,7 @@
 This is a fairly simple python notebook that was create to analyze characteristics of Asheville Airbnb rentals during Christmas over 2019 and 2020.
 
 ## Installation
- Most of the standard libraries were used in the project including `numpy` and `pandas` for data management, `matplotlib`, `seaborn`, and `plotly` for graphics, and `sklearn` for some linear regression.  Additionally, `json` and `folium` were used for some interactive maps.
+ Most of the standard libraries were used in the project including `numpy` and `pandas` for data management, `matplotlib`, `seaborn`, `json`, and `plotly` for graphics, and `sklearn` for some linear regression.  Additionally, `folium` was used for some interactive maps.
  
  All data is obtained from the [InsideAirbnb](http://insideairbnb.com) web site for Asheville, North Carolina, United States.  
  
@@ -19,11 +19,11 @@ The questions I was most interested in were:
 ## File Descriptions
 The files in the project include:
 * Notebooks - AirBnbAsheville.ipynb
-* Data - Includes calendar and listing files that were compiled on 24 October, 2020 and 27 October, 2019.  A .geojson was also loaded from the site that was used to draw the eight Asheville neighforgood districts.
+* Data - Includes calendar and listing files that were compiled on 24 October, 2020 and 27 October, 2019.  A .geojson was also loaded from the site that was used to draw the eight Asheville neighborhood districts.
 * Results - This includes the various graphical output that was used in the associated Medium blog post.
 
 ## Findings
-The number of Christmas-time listings decreased from 2019 to 2020, which given the pandemic, was not surprising.  What was interesting to see is that the rental prices increased year over year and the availability relatively decreased year over year, indicated demand did not suffer at the same level that supply did.  Additional comments and details can be found in the associated [blog post](https://ldself.medium.com/analysis-of-asheville-airbnb-christmas-rental-market-2019-vs-2020-784736cfe4dd).
+The number of Christmas-time listings decreased from 2019 to 2020, which given the pandemic was not surprising.  What was interesting to see is that the rental prices increased year over year and the availability relatively decreased year over year, indicating demand did not suffer at the same level that supply did.  Additional comments and details can be found in the associated [blog post](https://ldself.medium.com/analysis-of-asheville-airbnb-christmas-rental-market-2019-vs-2020-784736cfe4dd).
 
 ## Acknowledgements
 I definitely need to ackowledge [Udacity](http://udacity.com) and their Data Science nanodegree program which has encouraged :) me to learn how to use Git and Github and how to write a ReadMe file and how to write a blog post.  I would also like to acknowledge [Inside Airbnb](http://insideairbnb.com) for providing the data that was used for this project.
