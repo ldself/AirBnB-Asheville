@@ -2,7 +2,7 @@
 This is a fairly simple python notebook that was create to analyze characteristics of Asheville Airbnb rentals during Christmas over 2019 and 2020.
 
 ## Installation
- Most of the standard libraries were used in the project including `numpy` and `pandas` for data management, `matplotlib` and `seaborn` for graphics, and `sklearn` for some linear regression.  Additionally, `json` and `folium` were used for some interactive maps.
+ Most of the standard libraries were used in the project including `numpy` and `pandas` for data management, `matplotlib`, `seaborn`, and 'plotly` for graphics, and `sklearn` for some linear regression.  Additionally, `json` and `folium` were used for some interactive maps.
  
  All data is obtained from the [InsideAirbnb](http://insideairbnb.com) web site for Asheville, North Carolina, United States.  
  
